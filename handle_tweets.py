@@ -60,4 +60,3 @@ def handle_tweet(tweet_object, n_tweets):
         # Connect to database
         db_connection = connect_to_database('tweets01')
         insert_single(db_connection, 'tweets', output)
-        print(output['text'])
